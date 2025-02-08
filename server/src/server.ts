@@ -21,3 +21,4 @@ sequelize.sync({force: forceDatabaseRefresh}).then(() => {
     console.log(`Server is listening on port ${PORT}`);
   });
 });
+ //"nodemon": "^3.1.3",
